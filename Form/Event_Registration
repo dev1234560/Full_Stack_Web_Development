@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+    
+
+    <h1>Event Registration</h1>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <br>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone"  required>
+        <br>
+        <br>
+        <label for="occupationType">Occupation</label>
+        <select  name="occupationType" id="occupationType" required>
+            <option value="Student">Student</option>
+            <option value="professional">professional</option>
+            <option value="Others">Others</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Topics Of Interest</legend>
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="HTML" value="HTML">
+            <br>
+            <br>
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="CSS" value="HTML">
+            <br>
+            <br>
+            <label for="Javascript">Javascript</label>
+            <input type="checkbox" id="Javascript" value="Javascript">
+
+        </fieldset>
+        <br>
+        <br>
+        <label for="comments">Comments:</label>
+        <textarea  id="comments" cols="50" rows="5"></textarea>
+        <br>
+        <br>
+        <button style="color: yellow; background-color: black;">Register</button>
+        
+        
+        
+    </form>
+    
+</body>
+</html>
